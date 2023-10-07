@@ -1,0 +1,19 @@
+Difference Beween  Document and Window Object.....
+
+Document:
+   1. It represents the document loaded inside the window or browser.
+   2. The properties related to it are stored in the document object.
+   3. It is loaded after the loading window because the window contains a document.
+   4. It is the root element of document object module(DOM).
+   5. It is an object of an window.
+   6. We cannot access windows objects properties inside the document..
+   7. EX: document.title will reture the title of the document..
+
+Window:
+   1. It represents the browser window in which you are seeing the content.
+   2. The properties related to it are stored in the window object.
+   3. It is loaded before the document because window containes a document.
+   4. The window is the global element for all objects, functions, etc...
+   5. It is an object of the browser.
+   6. We can access document object properties in the window.
+   7. EX: window.document,title will return the title of the document..
